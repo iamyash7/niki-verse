@@ -1,0 +1,18 @@
+/* ============================================================
+   utils.js — Utility Functions: Back-to-Top Button
+   ============================================================ */
+
+   export function initBackTop() {
+    const btn = document.getElementById('backTop');
+    if (!btn) return;
+  
+    window.addEventListener(
+      'scroll',
+      () => btn.classList.toggle('visible', window.scrollY > 400),
+      { passive: true }
+    );
+  
+    btn.addEventListener('click', () =>
+      window.scrollTo({ top: 0, behavior: 'smooth' })
+    );
+  }
