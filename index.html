@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Nikita Uttamchandani is a marketing strategist, corporate anchor, and curriculum designer with 13+ years of experience in Ahmedabad.">
+  <meta name="author" content="Nikita Uttamchandani">
+  <meta property="og:title" content="Nikita Uttamchandani | Marketing Strategist, Anchor & Educator">
+  <meta property="og:description" content="13+ years across brand strategy, corporate anchoring, expert sessions, and English curriculum design.">
+  <meta property="og:type" content="website">
+
+  <meta property="og:url" content="https://iamyash7.github.io/niki-verse/">
+  <!-- <meta property="og:image" content="https://yourdomain.com/assets/images/og-image.jpg"> -->
+
+  <title>Nikita Uttamchandani | Marketing Strategist, Anchor & Educator</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- CSS — Order matters -->
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/typography.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/form.css">
+  <link rel="stylesheet" href="css/sections.css">
+</head>
+<body>
+
+<!-- Accessibility: Skip to main content -->
+<a href="#main" class="skip-link">Skip to main content</a>
+
+<!-- ================================================================
+     NAVIGATION
+     ================================================================ -->
+<nav id="nav" role="navigation" aria-label="Main navigation">
+  <div class="nav__inner">
+    <a href="#hero" class="nav__logo" aria-label="Nikita Uttamchandani — Home">
+      Nikita Uttamchandani
+      <small>Strategy · Speaking · Education</small>
+    </a>
+
+    <ul class="nav__links" role="list">
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#testimonials">Testimonials</a></li>
+      <li><a href="#blog">Insights</a></li>
+    </ul>
+
+    <a href="#contact" class="btn btn--accent nav__cta" aria-label="Book a discovery call">
+      Book a Call
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+        <path d="M5 12h14M12 5l7 7-7 7"/>
+      </svg>
+    </a>
+
+    <button class="nav__burger" id="navBurger"
+            aria-label="Toggle navigation menu"
+            aria-expanded="false"
+            aria-controls="navDrawer">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- Mobile Navigation Drawer -->
+<div class="nav__drawer" id="navDrawer"
+     role="dialog" aria-modal="true" aria-label="Navigation menu">
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#portfolio">Portfolio</a>
+  <a href="#testimonials">Testimonials</a>
+  <a href="#blog">Insights</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<!-- ================================================================
+     MAIN CONTENT
+     ================================================================ -->
+<main id="main">
+
+  <!-- ── HERO ──────────────────────────────────────────────────── -->
+  <section id="hero" aria-label="Introduction">
+    <div class="hero__bg-word" aria-hidden="true">Nikiverse</div>
+
+    <div class="hero__inner">
+      <div class="hero__main">
+        <p class="t-overline">Marketing Strategist · Corporate Anchor · Curriculum Designer</p>
+
+        <h1 class="t-display hero__title">
+          Sharp strategy.<br>
+          Confident <em>presence.</em><br>
+          Meaningful learning.
+        </h1>
+
+        <p class="hero__sub">
+          Nikita Uttamchandani blends marketing strategy, live communication, and curriculum
+          design to create work that is clear, credible, and outcome-focused across Ahmedabad
+          and beyond.
+        </p>
+
+        <div class="hero__actions">
+          <a href="#services" class="btn btn--dark">
+            Explore Services
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </a>
+          <a href="#contact" class="btn btn--outline">Get in Touch</a>
+        </div>
+      </div>
+
+      <div class="hero__side" aria-hidden="true">
+        <div class="hero__stat">
+          <div class="hero__stat-num">13<span style="color:var(--accent)">+</span></div>
+          <div class="hero__stat-label">Years Experience</div>
+        </div>
+        <div class="hero__stat-divider"></div>
+        <div class="hero__stat">
+          <div class="hero__stat-num" style="color:var(--accent)">3</div>
+          <div class="hero__stat-label">Practice Areas</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ticker Strip -->
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker__track">
+      <span class="ticker__item"><span class="ticker__dot"></span>Brand Strategy</span>
+      <span class="ticker__item"><span class="ticker__dot"></span>Performance Marketing</span>
+      <span class="ticker__item"><span class="ticker__dot"></span>Corporate Anchoring</span>
+      <span class="ticker__item"><span class="ticker__dot"></span>Content Strategy</span>
+      <span class="ticker__item"><span class="ticker__dot"></span>Curriculum Design</span>
+      <span class="ticker__item"><span class="ticker__dot"></span>Meta &amp; Google Ads</span>
+      <span class="ticker__item"><span class="ticker__dot"></span>Expert Lectures</span>
+      <span class="ticker__item"><span class="ticker__dot"></span>Food &amp; Hospitality</span>
+      <span class="ticker__item"><span class="ticker__dot"></span>Real Estate</span>
+      <span class="ticker__item"><span class="ticker__dot"></span>Education Sector</span>
+      <!-- Duplicate for seamless loop -->
+      <span class="ticker__item"><span class="ticker__dot"></span>Brand Strategy</span>
+      <span class="ticker__item"><span class="ticker__dot"></span>Performance Marketing</span>
+      <span class="ticker__item"><span class="ticker__dot"></span>Corporate Anchoring</span>
+      <span class="ticker__item"><span class="ticker__dot"></span>Content Strategy</span>
+      <span class="ticker__item"><span class="ticker__dot"></span>Curriculum Design</span>
+      <span class="ticker__item"><span class="ticker__dot"></span>Meta &amp; Google Ads</span>
+      <span class="ticker__item"><span class="ticker__dot"></span>Expert Lectures</span>
+      <span class="ticker__item"><span class="ticker__dot"></span>Food &amp; Hospitality</span>
+      <span class="ticker__item"><span class="ticker__dot"></span>Real Estate</span>
+      <span class="ticker__item"><span class="ticker__dot"></span>Education Sector</span>
+    </div>
+  </div>
+
+  <!-- ── ABOUT ─────────────────────────────────────────────────── -->
+  <section id="about" class="section" aria-label="About Nikita Uttamchandani">
+    <div class="container">
+      <div class="grid-2 grid-2--offset">
+
+        <!-- Photo Column -->
+        <div class="reveal">
+          <div class="about__photo"
+               role="img"
+               aria-label="Professional photo of Nikita Uttamchandani">
+            <img
+              src="assets/images/niki_pic.jpg"
+              alt="Nikita Uttamchandani — Marketing Strategist, Corporate Anchor and Curriculum Designer"
+              style="width:100%;height:100%;object-fit:cover;object-position:center top;"
+            >
+            <div class="about__badge" aria-label="13.5 years of experience">
+              <div class="about__badge-num">13.5</div>
+              <div class="about__badge-txt">Years of Experience</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Content Column -->
+        <div>
+          <p class="t-overline reveal">About</p>
+
+          <h2 class="t-headline reveal reveal--d1"
+              style="font-size:clamp(2rem,4vw,3rem);margin-block:1rem 1.8rem;">
+            A multidisciplinary professional shaping brands, hosting rooms, and designing learning experiences with clarity.
+          </h2>
+
+          <p class="t-body reveal reveal--d2">
+            Nikita Uttamchandani is based in Ahmedabad and brings 13+ years of experience
+            across brand strategy, performance marketing, corporate event anchoring, and
+            English curriculum design.
+          </p>
+
+          <p class="t-body reveal reveal--d2" style="margin-top:1rem;">
+            Her work spans business growth, audience engagement, live communication, and
+            education design, helping brands, institutions, and learning environments
+            communicate more effectively and perform with purpose.
+          </p>
+
+          <blockquote class="pull-quote reveal reveal--d2">
+            "Good work should be clear, memorable, and built to create real impact."
+          </blockquote>
+
+          <div class="about__tag-row reveal reveal--d3" aria-label="Sectors served">
+            <span class="tag">Food &amp; Hospitality</span>
+            <span class="tag">Real Estate</span>
+            <span class="tag">Education</span>
+            <span class="tag">Corporate Events</span>
+            <span class="tag">Schools &amp; Institutes</span>
+          </div>
+
+          <a href="#contact" class="btn btn--dark reveal reveal--d3">
+            Start a Conversation
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SERVICES ──────────────────────────────────────────────── -->
+  <section id="services" class="section section--dark" aria-label="Services">
+    <div class="container">
+
+      <div class="section-header reveal">
+        <div>
+          <p class="t-overline">Services</p>
+          <h2 class="t-display services__title">
+            Three Practice <em style="font-style:italic">Areas.</em>
+          </h2>
+        </div>
+        <p class="services__sub">
+          Structured as three independent verticals — each built for client-specific,
+          measurable outcomes.
+        </p>
+      </div>
+
+      <div class="engines" role="list">
+
+        <!-- Engine 01 — Marketing -->
+        <div class="engine open" role="listitem">
+          <div class="engine__header" role="button" tabindex="0"
+               aria-expanded="true" aria-controls="engine1">
+            <span class="engine__num">01</span>
+            <div>
+              <div class="engine__tag">Practice Area</div>
+              <div class="engine__name">Marketing &amp; Brand Strategy</div>
+            </div>
+            <button class="engine__toggle" aria-label="Toggle Marketing &amp; Brand Strategy">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M12 5v14M5 12h14"/>
+              </svg>
+            </button>
+          </div>
+          <div class="engine__body" id="engine1">
+            <div class="engine__body-inner">
+              <div class="engine__body-content">
+                <div class="svc-item">
+                  <div class="svc-item__name">Brand Building</div>
+                  <div class="svc-item__desc">Positioning, identity, and messaging strategy. Building a brand people remember — not just recognise.</div>
+                </div>
+                <div class="svc-item">
+                  <div class="svc-item__name">Content Strategy &amp; Planning</div>
+                  <div class="svc-item__desc">Audience-mapped content plans tied to business goals. No filler; full strategic direction.</div>
+                </div>
+                <div class="svc-item">
+                  <div class="svc-item__name">Content Writing — Long &amp; Short Form</div>
+                  <div class="svc-item__desc">Blogs, articles, scripts, and copy crafted in your brand voice with authority and precision.</div>
+                </div>
+                <div class="svc-item">
+                  <div class="svc-item__name">Performance Marketing — Meta &amp; Google</div>
+                  <div class="svc-item__desc">Results-driven paid campaigns managed end-to-end from strategy brief to reporting.</div>
+                </div>
+                <div class="svc-item">
+                  <div class="svc-item__name">Content Distribution &amp; Marketing</div>
+                  <div class="svc-item__desc">Placing the right content in front of the right audience at the right time.</div>
+                </div>
+                <div class="svc-item">
+                  <div class="svc-item__name">Google Business Optimisation</div>
+                  <div class="svc-item__desc">Local SEO and Google Business Profile management for discoverability and trust.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Engine 02 — Anchoring -->
+        <div class="engine" role="listitem">
+          <div class="engine__header" role="button" tabindex="0"
+               aria-expanded="false" aria-controls="engine2">
+            <span class="engine__num">02</span>
+            <div>
+              <div class="engine__tag">Practice Area</div>
+              <div class="engine__name">Corporate Anchoring &amp; Speaking</div>
+            </div>
+            <button class="engine__toggle" aria-label="Toggle Corporate Anchoring &amp; Speaking">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M12 5v14M5 12h14"/>
+              </svg>
+            </button>
+          </div>
+          <div class="engine__body" id="engine2">
+            <div class="engine__body-inner">
+              <div class="engine__body-content">
+                <div class="svc-item">
+                  <div class="svc-item__name">Corporate Event Anchoring</div>
+                  <div class="svc-item__desc">HNI events, cricket auctions, corporate galas, and institutional programmes — delivered with authority and consistent energy.</div>
+                </div>
+                <div class="svc-item">
+                  <div class="svc-item__name">Expert Lectures &amp; Workshops</div>
+                  <div class="svc-item__desc">Topics: Communication Mastery, Personality Development, and Anxiety as a Performance Asset. Delivered across corporates and institutes.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Engine 03 — Education -->
+        <div class="engine" role="listitem">
+          <div class="engine__header" role="button" tabindex="0"
+               aria-expanded="false" aria-controls="engine3">
+            <span class="engine__num">03</span>
+            <div>
+              <div class="engine__tag">Practice Area</div>
+              <div class="engine__name">English Curriculum &amp; Education</div>
+            </div>
+            <button class="engine__toggle" aria-label="Toggle English Curriculum &amp; Education">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M12 5v14M5 12h14"/>
+              </svg>
+            </button>
+          </div>
+          <div class="engine__body" id="engine3">
+            <div class="engine__body-inner">
+              <div class="engine__body-content">
+                <div class="svc-item">
+                  <div class="svc-item__name">Curriculum Framework &amp; Study Material</div>
+                  <div class="svc-item__desc">Literature-led English curriculum from Playway to Grade 12. Adopted at Som Lalit, Anand Niketan, and expanding institutions.</div>
+                </div>
+                <div class="svc-item">
+                  <div class="svc-item__name">Custom Teaching Materials</div>
+                  <div class="svc-item__desc">Bespoke, pedagogically sound resources for English coaching classes and private institutes.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /engines -->
+
+      <div class="services__footer reveal">
+        <a href="#contact" class="btn btn--outline-light">
+          Not sure which service fits? Book a Discovery Call
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── RESULTS STRIP ─────────────────────────────────────────── -->
+  <div class="results-strip" role="region" aria-label="Key statistics">
+    <div class="container">
+      <div class="results-strip__grid">
+        <div class="result-item">
+          <div class="result-item__num">13+</div>
+          <div class="result-item__label">Years of Experience</div>
+        </div>
+        <div class="result-item">
+          <div class="result-item__num">5+</div>
+          <div class="result-item__label">Industries Served</div>
+        </div>
+        <div class="result-item">
+          <div class="result-item__num">3</div>
+          <div class="result-item__label">Practice Verticals</div>
+        </div>
+        <div class="result-item">
+          <div class="result-item__num">2+</div>
+          <div class="result-item__label">School Curricula Adopted</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── PORTFOLIO ─────────────────────────────────────────────── -->
+  <section id="portfolio" class="section" aria-label="Portfolio">
+    <div class="container">
+
+      <div style="margin-bottom:3.5rem;">
+        <p class="t-overline reveal">Selected Work</p>
+        <h2 class="t-display reveal reveal--d1"
+            style="font-size:clamp(2.5rem,5vw,3.8rem);margin-top:0.8rem;">
+          13 years of work.<br>
+          <em style="font-style:italic;color:var(--accent)">A glimpse.</em>
+        </h2>
+        <p class="t-body reveal reveal--d2" style="margin-top:0.8rem;max-width:52ch;">
+          Project details are kept confidential at client request.
+          Work samples and case studies are available upon enquiry.
+        </p>
+      </div>
+
+      <!-- Category Tabs -->
+      <div class="portfolio__tabs" role="tablist" aria-label="Portfolio categories">
+        <button class="ptab active" role="tab" aria-selected="true" data-tab="all">All Work</button>
+        <button class="ptab" role="tab" aria-selected="false" data-tab="marketing">Marketing</button>
+        <button class="ptab" role="tab" aria-selected="false" data-tab="anchoring">Anchoring</button>
+        <button class="ptab" role="tab" aria-selected="false" data-tab="education">Education</button>
+      </div>
+
+      <!-- Portfolio Cards -->
+      <div class="portfolio__grid reveal">
+
+        <div class="port-card" data-category="anchoring">
+          <!--
+            TO ADD REAL IMAGES:
+            Replace the div.port-card__img below with:
+            <div class="port-card__img port-card__img--anchoring">
+              <img src="assets/images/portfolio-events.jpg"
+                   alt="Corporate anchoring at [Event Name]"
+                   style="width:100%;height:100%;object-fit:cover;">
+            </div>
+          -->
+          <div class="port-card__img port-card__img--anchoring">
+            <div class="port-card__img-icon" aria-hidden="true">🎤</div>
+            <div class="port-card__img-label">Add Event Photo</div>
+          </div>
+          <div class="port-card__body">
+            <div class="port-card__cat">Corporate Anchoring</div>
+            <div class="port-card__title">HNI Events, Cricket Auctions &amp; Corporate Galas</div>
+            <div class="port-card__desc">
+              High-profile event hosting across Ahmedabad's corporate and institutional circuit
+              — from boardrooms to packed auditoriums.
+            </div>
+            <div class="port-card__confidential" aria-label="Confidential — details available on request">
+              🔒 Details available on request
+            </div>
+          </div>
+        </div>
+
+        <div class="port-card" data-category="marketing">
+          <div class="port-card__img port-card__img--marketing">
+            <div class="port-card__img-icon" aria-hidden="true">📊</div>
+            <div class="port-card__img-label">Add Campaign Visual</div>
+          </div>
+          <div class="port-card__body">
+            <div class="port-card__cat">Performance Marketing</div>
+            <div class="port-card__title">Multi-Sector Campaigns — Food, Real Estate &amp; Education</div>
+            <div class="port-card__desc">
+              End-to-end campaign strategy and execution with measurable audience response
+              and revenue impact.
+            </div>
+            <div class="port-card__confidential">
+              🔒 Details available on request
+            </div>
+          </div>
+        </div>
+
+        <div class="port-card" data-category="anchoring">
+          <div class="port-card__img port-card__img--lecture">
+            <div class="port-card__img-icon" aria-hidden="true">🎓</div>
+            <div class="port-card__img-label">Add Lecture Photo</div>
+          </div>
+          <div class="port-card__body">
+            <div class="port-card__cat">Expert Lectures</div>
+            <div class="port-card__title">Personality Development &amp; Communication Workshops</div>
+            <div class="port-card__desc">
+              Delivered across corporates and institutions — sessions that translate directly
+              into professional performance.
+            </div>
+            <div class="port-card__confidential">
+              🔒 Details available on request
+            </div>
+          </div>
+        </div>
+
+        <div class="port-card" data-category="education">
+          <div class="port-card__img port-card__img--education">
+            <div class="port-card__img-icon" aria-hidden="true">📚</div>
+            <div class="port-card__img-label">Add Curriculum Sample</div>
+          </div>
+          <div class="port-card__body">
+            <div class="port-card__cat">Curriculum Design</div>
+            <div class="port-card__title">English Framework — Playway to Grade 12</div>
+            <div class="port-card__desc">
+              Literature-led, pedagogically structured English curriculum adopted at
+              Som Lalit, Anand Niketan, and growing.
+            </div>
+            <div class="port-card__confidential">
+              🔒 Details available on request
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /portfolio__grid -->
+
+      <div style="text-align:center;margin-top:3rem;" class="reveal">
+        <a href="#contact" class="btn btn--outline">
+          Request a Portfolio Walkthrough
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── TESTIMONIALS ───────────────────────────────────────────── -->
+  <section id="testimonials" class="section section--ivory" aria-label="Client testimonials">
+    <div class="container">
+
+      <div style="margin-bottom:4rem;">
+        <p class="t-overline reveal">Client Testimonials</p>
+        <h2 class="t-display reveal reveal--d1"
+            style="font-size:clamp(2rem,4vw,3.2rem);margin-top:0.8rem;">
+          What clients say.
+        </h2>
+      </div>
+
+      <div class="testi__grid">
+
+          <div class="testi-card reveal">
+          <span class="testi-card__qmark" aria-hidden="true">"</span>
+          <p class="testi-card__text">
+            Nikita brought structure, clarity, and consistency to our communication. The
+            strategy felt thoughtful from day one, and the execution reflected a strong
+            understanding of both brand and audience.
+          </p>
+          <div class="testi-card__author">
+            <div class="testi-card__avatar" aria-hidden="true">C</div>
+            <div>
+              <div class="testi-card__name">Confidential Client</div>
+              <div class="testi-card__role">Leadership Team · Brand &amp; Business Growth</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-card reveal reveal--d1">
+          <span class="testi-card__qmark" aria-hidden="true">"</span>
+          <p class="testi-card__text">
+            She held the room with ease, kept the energy balanced, and carried the event
+            forward with confidence. Her stage presence is polished, composed, and highly
+            professional.
+          </p>
+          <div class="testi-card__author">
+            <div class="testi-card__avatar" aria-hidden="true">E</div>
+            <div>
+              <div class="testi-card__name">Event Partner</div>
+              <div class="testi-card__role">Events Team · Corporate Engagement</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-card reveal reveal--d2">
+          <span class="testi-card__qmark" aria-hidden="true">"</span>
+          <p class="testi-card__text">
+            The curriculum framework was practical, well-sequenced, and easy to implement.
+            It supported stronger classroom delivery and gave both teachers and students
+            more direction.
+          </p>
+          <div class="testi-card__author">
+            <div class="testi-card__avatar" aria-hidden="true">A</div>
+            <div>
+              <div class="testi-card__name">Academic Leader</div>
+              <div class="testi-card__role">School Leadership · English Curriculum</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-card reveal reveal--d3">
+          <span class="testi-card__qmark" aria-hidden="true">"</span>
+          <p class="testi-card__text">
+            Her sessions are engaging, grounded, and immediately useful. The ideas are
+            presented with warmth and precision, making them easy to absorb and apply in
+            real professional settings.
+          </p>
+          <div class="testi-card__author">
+            <div class="testi-card__avatar" aria-hidden="true">P</div>
+            <div>
+              <div class="testi-card__name">Programme Participant</div>
+              <div class="testi-card__role">Workshop Attendee · Professional Development</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── BLOG / INSIGHTS ───────────────────────────────────────── -->
+  <section id="blog" class="section" aria-label="Insights and articles">
+    <div class="container">
+
+      <div class="section-header">
+        <div>
+          <p class="t-overline reveal">Insights</p>
+          <h2 class="t-display reveal reveal--d1"
+              style="font-size:clamp(2rem,4vw,3rem);margin-top:0.8rem;">
+            Perspectives on marketing,<br>
+            <em style="font-style:italic;color:var(--accent)">communication &amp; education.</em>
+          </h2>
+        </div>
+        <a href="#contact" class="btn btn--outline reveal" style="flex-shrink:0;">
+          Suggest a Topic
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </a>
+      </div>
+
+      <div class="blog__grid reveal">
+
+        <article class="blog-card">
+          <div class="blog-card__cat">Mindset &amp; Communication</div>
+          <h3 class="blog-card__title">
+            Anxiety as a Performance Asset: Why High-Functioning Professionals Should Stop Suppressing It
+          </h3>
+          <p class="blog-card__excerpt">
+            The professionals who consistently outperform are not the ones without anxiety —
+            they are the ones who have learned to channel it. A framework for reorienting
+            your relationship with pressure.
+          </p>
+          <span class="blog-card__read" aria-label="Read this article">
+            Read Article
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </span>
+        </article>
+
+        <article class="blog-card">
+          <div class="blog-card__cat">Brand Strategy</div>
+          <h3 class="blog-card__title">
+            Content Marketing Lessons from Unexpected Places: What Storytelling Gets Right About Audience Engagement
+          </h3>
+          <p class="blog-card__excerpt">
+            The most effective content strategies borrow from storytelling principles that
+            have worked for centuries — breaking down what actually drives engagement,
+            beyond the algorithm.
+          </p>
+          <span class="blog-card__read" aria-label="Read this article">
+            Read Article
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </span>
+        </article>
+
+        <article class="blog-card">
+          <div class="blog-card__cat">Brand Building</div>
+          <h3 class="blog-card__title">
+            Why a Brand Strategy Document Matters More Than Your Logo
+          </h3>
+          <p class="blog-card__excerpt">
+            Most businesses invest in visuals before defining positioning. The result is
+            expensive collateral with no coherent message. A practical guide on where
+            to start instead.
+          </p>
+          <span class="blog-card__read" aria-label="Read this article">
+            Read Article
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </span>
+        </article>
+
+        <article class="blog-card">
+          <div class="blog-card__cat">Education</div>
+          <h3 class="blog-card__title">
+            The Pedagogy Problem: Why English Curriculum Design Must Prioritise Learning Outcomes Over Content Coverage
+          </h3>
+          <p class="blog-card__excerpt">
+            Schools that produce strong English communicators share one design principle.
+            It is not the textbook — it is the framework behind it.
+          </p>
+          <span class="blog-card__read" aria-label="Read this article">
+            Read Article
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </span>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONTACT ────────────────────────────────────────────────── -->
+  <section id="contact" class="section section--dark" aria-label="Contact">
+    <div class="container">
+      <div class="grid-2 grid-2--contact">
+
+        <!-- Left: Contact Info -->
+        <div class="reveal">
+          <p class="t-overline contact__overline" style="color:var(--accent);margin-bottom:1.2rem;">Get in Touch</p>
+          <h2 class="t-display contact__headline">
+            Let's discuss <em style="font-style:italic">your brief.</em>
+          </h2>
+          <p class="contact__body">
+            Whether you are looking to grow a brand, book a corporate anchor, or develop
+            an English curriculum — share your brief and I will respond within 24 hours.
+          </p>
+
+          <div class="contact__info" aria-label="Contact information">
+            <div class="contact__row">
+              <div class="contact__icon" aria-hidden="true">📍</div>
+              <div>
+                <div class="contact__row-label">Location</div>
+                <!--REPLACE: Update city if needed -->
+                <div class="contact__row-val">Ahmedabad, India</div>
+              </div>
+            </div>
+            <div class="contact__row">
+              <div class="contact__icon" aria-hidden="true">📧</div>
+              <div>
+                <div class="contact__row-label">Email</div>
+                <div class="contact__row-val">
+                  <a href="mailto:nikitauttamchandani65@gmail.com" style="color:inherit;">nikitauttamchandani65@gmail.com</a>
+                </div>
+              </div>
+            </div>
+            <div class="contact__row">
+              <div class="contact__icon" aria-hidden="true">📱</div>
+              <div>
+                <div class="contact__row-label">Phone</div>
+                <div class="contact__row-val">
+                  <a href="tel:+919033574241" style="color:inherit;">+91 90335 74241</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact__socials">
+            <a href="https://www.linkedin.com/in/nikita-uttamchandani-a299ab158/" class="social-btn" target="_blank"
+               rel="noopener noreferrer" aria-label="LinkedIn profile">LinkedIn</a>
+            <a href="https://www.youtube.com/@learnifyme7976" class="social-btn" target="_blank"
+               rel="noopener noreferrer" aria-label="YouTube channel">YouTube</a>
+          </div>
+        </div>
+
+        <!-- Right: Contact Form -->
+        <div class="reveal reveal--d2">
+          <form class="contact-form" id="contactForm" novalidate aria-label="Contact enquiry form">
+
+            <div class="form-row">
+              <div class="field" id="fldName">
+                <label class="field__label" for="fname">Full Name *</label>
+                <input type="text" id="fname" name="name"
+                       placeholder="Your full name"
+                       required autocomplete="name">
+                <span class="field__error" role="alert">Please enter your full name.</span>
+              </div>
+              <div class="field" id="fldEmail">
+                <label class="field__label" for="femail">Email Address *</label>
+                <input type="email" id="femail" name="email"
+                       placeholder="you@company.com"
+                       required autocomplete="email">
+                <span class="field__error" role="alert">Please enter a valid email address.</span>
+              </div>
+            </div>
+
+            <div class="field" id="fldService">
+              <label class="field__label" for="fservice">Area of Interest *</label>
+              <select id="fservice" name="service" required>
+                <option value="" disabled selected>Select a practice area…</option>
+                <option value="marketing">Marketing &amp; Brand Strategy</option>
+                <option value="anchoring">Corporate Anchoring / Event Hosting</option>
+                <option value="education">English Curriculum / Education</option>
+                <option value="multiple">Multiple Services</option>
+                <option value="other">General Enquiry</option>
+              </select>
+              <span class="field__error" role="alert">Please select an area of interest.</span>
+            </div>
+
+            <div class="field" id="fldMsg">
+              <label class="field__label" for="fmessage">Project Brief *</label>
+              <textarea id="fmessage" name="message"
+                        placeholder="Describe your project, timeline, and any specific requirements…"
+                        required minlength="20"></textarea>
+              <span class="field__error" role="alert">
+                Please provide a brief description (minimum 20 characters).
+              </span>
+            </div>
+
+            <button type="submit" class="form-submit" id="formSubmit">
+              <span id="submitText">Send Enquiry</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </button>
+
+            <p class="form-notice">
+              Your information is kept private and will not be shared with third parties.
+            </p>
+
+          </form>
+
+          <!-- Success Message (shown after submit) -->
+          <div class="form-success" id="formSuccess"
+               role="alert" aria-live="polite">
+            <h3>Enquiry Received</h3>
+            <p>
+              Thank you for reaching out. I will review your brief and respond
+              within 24 business hours.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ================================================================
+     FOOTER
+     ================================================================ -->
+<footer role="contentinfo">
+  <div class="footer__brand">Nikita Uttamchandani</div>
+  <div class="footer__copy">© 2025 · All rights reserved</div>
+  <nav class="footer__nav" aria-label="Footer navigation">
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</footer>
+
+<!-- Back to Top -->
+<button class="back-top" id="backTop" aria-label="Back to top of page">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+    <path d="M12 19V5M5 12l7-7 7 7"/>
+  </svg>
+</button>
+
+<!-- JS — ES Modules (no bundler needed; works directly in modern browsers) -->
+<script type="module" src="js/main.js"></script>
+
+</body>
+</html>
